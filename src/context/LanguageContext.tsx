@@ -1,13 +1,25 @@
 import React, { createContext, useContext, useState, useEffect } from 'react';
+import { TRANSLATIONS, type TranslationData } from '../locales/translations';
 
 export type Language = 'en' | 'hi';
 
+// `t` works both as a key lookup (t('nav_about')) and as the structured
+// translation object (t.about.headline), since components use both styles.
+type TranslateFn = ((key: string, defaultText?: string) => string) & TranslationData;
+
 interface LanguageContextType {
   lang: Language;
+  language: Language;
   setLang: (lang: Language) => void;
   toggleLanguage: () => void;
-  t: (key: string, defaultText?: string) => string;
+  t: TranslateFn;
 }
+
+const createT = (lang: Language): TranslateFn => {
+  const lookup = (key: string, defaultText?: string) =>
+    translations[lang]?.[key] || defaultText || key;
+  return Object.assign(lookup, TRANSLATIONS[lang]);
+};
 
 export const translations: Record<Language, Record<string, string>> = {
   en: {
@@ -152,9 +164,10 @@ export const translations: Record<Language, Record<string, string>> = {
 
 const LanguageContext = createContext<LanguageContextType>({
   lang: 'en',
+  language: 'en',
   setLang: () => {},
   toggleLanguage: () => {},
-  t: (key: string, defaultText?: string) => defaultText || key,
+  t: createT('en'),
 });
 
 export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
@@ -177,12 +190,10 @@ export const LanguageProvider: React.FC<{ children: React.ReactNode }> = ({ chil
     setLang(lang === 'en' ? 'hi' : 'en');
   };
 
-  const t = (key: string, defaultText?: string) => {
-    return translations[lang]?.[key] || defaultText || key;
-  };
+  const t = createT(lang);
 
   return (
-    <LanguageContext.Provider value={{ lang, setLang, toggleLanguage, t }}>
+    <LanguageContext.Provider value={{ lang, language: lang, setLang, toggleLanguage, t }}>
       {children}
     </LanguageContext.Provider>
   );
