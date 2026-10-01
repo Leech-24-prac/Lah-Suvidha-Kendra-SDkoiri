@@ -90,7 +90,7 @@ export const Hero: React.FC = () => {
           <div className="lg:col-span-5 relative">
             <div className="relative rounded-2xl overflow-hidden shadow-2xl border-4 border-white bg-white">
               <img
-                src="/src/assets/images/hero_lac_farm_1790787414277.jpg"
+                src="/images/hero_lac_farm_1790787414277.jpg"
                 alt="Lac host tree plantation in Jharkhand, depicting lac cultivation practices"
                 referrerPolicy="no-referrer"
                 className="w-full h-80 sm:h-96 object-cover object-center transform hover:scale-105 transition-transform duration-700"

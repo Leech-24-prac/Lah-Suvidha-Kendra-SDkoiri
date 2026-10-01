@@ -83,24 +83,24 @@ export const PRODUCTS: Product[] = [
     fullDescriptionHi: 'लाह की खेती में "लाह बीज" का अर्थ स्वस्थ बीहन सामग्री होता है जिसमें जीवित मादा कीट होते हैं जो संचरण के समय नन्हें कीटों (क्रॉलर्स) को छोड़ते हैं। साथ ही लकड़ी हटाकर धोए गए सुनहरे अंबर दानेदार बीज (सीडलैक) भी बीज कहलाते हैं।',
     whatsappMessage: 'Hello Lah Suvidha Kendra, I am interested in Lac Seeds. Please share availability, quantity and pricing.',
     whatsappMessageHi: 'नमस्ते लाह सुविधा केंद्र, मुझे लाह बीज (सीडलैक/संचरण बीज) की जानकारी, उपलब्धता और दर चाहिए।',
-    image: '/src/assets/images/lac_seeds_grains_1790787922266.jpg',
+    image: '/images/lac_seeds_grains_1790787922266.jpg',
     additionalImages: [
       {
-        url: '/src/assets/images/lac_seeds_grains_1790787922266.jpg',
+        url: '/images/lac_seeds_grains_1790787922266.jpg',
         label: 'Lac Seeds (Golden Grains / Seedlac)',
         labelHi: 'लाह बीज (सुनहरे दाने / सीडलैक)',
         caption: 'High-grade washed amber lac seed grains with clean natural clarity and resin purity.',
         captionHi: 'प्राकृतिक चमक और शुद्ध राल से युक्त धुले हुए उच्च श्रेणी के अंबर लाह के दाने।',
       },
       {
-        url: '/src/assets/images/lac_seed_sticks_1790787941472.jpg',
+        url: '/images/lac_seed_sticks_1790787941472.jpg',
         label: 'Lac Seed Sticks (Brood Inoculation)',
         labelHi: 'लाह बीज डंडियां (बीहन लाह संचरण)',
         caption: 'Healthy lac seed twigs tied for host branch inoculation, showing live crawler emergence spots.',
         captionHi: 'पेड़ की डालियों पर संचरण हेतु बंधी हुई स्वस्थ बीहन लाह की डंडियां।',
       },
       {
-        url: '/src/assets/images/brood_lac_twigs_1790787426825.jpg',
+        url: '/images/brood_lac_twigs_1790787426825.jpg',
         label: 'Mature Seed Encrustation',
         labelHi: 'डाल पर परिपक्व लाह आवरण',
         caption: 'Dense, viable lac insect encrustation on host branch before swarming.',
@@ -133,17 +133,17 @@ export const PRODUCTS: Product[] = [
     fullDescriptionHi: 'बीहन लाह में परिपक्व लाह लगी टहनियां होती हैं जिनमें जीवित मादा कीट होते हैं। हम पारंपरिक पेड़ों के साथ-साथ झाड़ीदार सेमियालता पौधों के लिए विशेष सेमियालता बीहन लाह भी उपलब्ध कराते हैं।',
     whatsappMessage: 'Hello Lah Suvidha Kendra, I am interested in Brood Lac / Semialta brood lac. Please share availability, season cycle and pricing.',
     whatsappMessageHi: 'नमस्ते लाह सुविधा केंद्र, मुझे बीहन लाह / सेमियालता बीहन लाह की उपलब्धता, मौसम चक्र और मूल्य बताएं।',
-    image: '/src/assets/images/lac_seed_sticks_1790787941472.jpg',
+    image: '/images/lac_seed_sticks_1790787941472.jpg',
     additionalImages: [
       {
-        url: '/src/assets/images/lac_seed_sticks_1790787941472.jpg',
+        url: '/images/lac_seed_sticks_1790787941472.jpg',
         label: 'Bundled Brood Lac Sticks',
         labelHi: 'बंधी हुई बीहन लाह की डंडियां',
         caption: 'Properly bundled brood sticks ready for synthetic netting and tree canopy tying.',
         captionHi: 'सिंथेटिक नेट में बांधने और पेड़ पर टांगने हेतु तैयार बंडल।',
       },
       {
-        url: '/src/assets/images/brood_lac_twigs_1790787426825.jpg',
+        url: '/images/brood_lac_twigs_1790787426825.jpg',
         label: 'Close-up Lac Twigs',
         labelHi: 'बीहन टहनी का क्लोज़-अप',
         caption: 'Thick, continuous lac encrustation with high female insect density.',
@@ -176,7 +176,7 @@ export const PRODUCTS: Product[] = [
     fullDescriptionHi: 'लाह कीट केवल विशेष पोषक पेड़ों के रस पर जीवित रहते हैं। हम सेमियालता (शीघ्र पैदावार देने वाला झाड़ीदार पौधा), कुसुम और बेर जैसे पौधों की आपूर्ति और रोपण पर मार्गदर्शन प्रदान करते हैं।',
     whatsappMessage: 'Hello Lah Suvidha Kendra, I am interested in Lac Cultivation Plants. Please share available plant varieties, quantity and details.',
     whatsappMessageHi: 'नमस्ते लाह सुविधा केंद्र, मुझे लाह पोषक पौधों (सेमियालता/कुसुम/बेर) की उपलब्धता और जानकारी चाहिए।',
-    image: '/src/assets/images/lac_host_plants_1790787454818.jpg',
+    image: '/images/lac_host_plants_1790787454818.jpg',
     features: [
       'Flemingia semialata saplings for high-density bushy farming',
       'Kusum and Ber host plant varieties',
@@ -203,7 +203,7 @@ export const PRODUCTS: Product[] = [
     fullDescriptionHi: 'आधुनिक लाह खेती में सिंथेटिक जाली अत्यंत महत्वपूर्ण है। इसमें बीहन लाह की डंडियों को रखकर पेड़ पर बांधा जाता है, जिससे नन्हे कीट आसानी से बाहर निकलकर पेड़ पर फैल जाते हैं और हवा से गिरने का खतरा नहीं रहता।',
     whatsappMessage: 'Hello Lah Suvidha Kendra, I am interested in Synthetic Net for lac cultivation. Please share available sizes, quantity and pricing.',
     whatsappMessageHi: 'नमस्ते लाह सुविधा केंद्र, मुझे लाह खेती के लिए सिंथेटिक नेट (जाली) के साइज और मूल्य की जानकारी चाहिए।',
-    image: '/src/assets/images/lac_tools_equipment_1790787467181.jpg',
+    image: '/images/lac_tools_equipment_1790787467181.jpg',
     features: [
       'Optimum mesh gauge allowing seamless crawler exit',
       'Weather-resistant synthetic weave for outdoor branch exposure',
@@ -232,7 +232,7 @@ export const PRODUCTS: Product[] = [
     fullDescriptionHi: 'कुसुमी लाह अपने हल्के सुनहरे रंग और उच्च रेज़िन गुणवत्ता के लिए जानी जाती है। यह दो फसलों—अघनी (शीतकालीन) और जेठवी (ग्रीष्मकालीन)—में काटी जाती है और औद्योगिक फिनिशिंग में अत्यंत मूल्यवान मानी जाती है।',
     whatsappMessage: 'Hello Lah Suvidha Kendra, I am interested in Kusmi Lac. Please share current availability, grades and pricing.',
     whatsappMessageHi: 'नमस्ते लाह सुविधा केंद्र, मुझे कुसुमी लाह की उपलब्धता, ग्रेड और दर की जानकारी चाहिए।',
-    image: '/src/assets/images/raw_lac_resin_1790787444571.jpg',
+    image: '/images/raw_lac_resin_1790787444571.jpg',
     features: [
       'Lighter natural coloration with superior resin clarity',
       'Harvested from Kusum (Schleichera oleosa) and Semialta hosts',
@@ -259,7 +259,7 @@ export const PRODUCTS: Product[] = [
     fullDescriptionHi: 'रंगीनी लाह भारत के पारंपरिक लाह उत्पादन का मुख्य आधार है। पलास और बेर के पेड़ों पर होने वाली यह लाह कतकी (बरसात/शरद) और बैसाखी (गर्मी) फसलों में मिलती है। इसमें प्राकृतिक मोम और चिपचिपापन भरपूर होता है।',
     whatsappMessage: 'Hello Lah Suvidha Kendra, I am interested in Rangini Lac. Please share available quantity and pricing details.',
     whatsappMessageHi: 'नमस्ते लाह सुविधा केंद्र, मुझे रंगीनी लाह की उपलब्ध मात्रा और दर बताएं।',
-    image: '/src/assets/images/raw_lac_resin_1790787444571.jpg',
+    image: '/images/raw_lac_resin_1790787444571.jpg',
     features: [
       'High natural wax and adhesive properties',
       'Cultivated on Palas and Ber trees across Jharkhand',
@@ -286,7 +286,7 @@ export const PRODUCTS: Product[] = [
     fullDescriptionHi: 'कच्ची लाह (स्टिकलैक) पेड़ की डालियों से निकली प्राकृतिक अप्रसंस्कृत लाह है। यह सीडलैक, बटन लाह और चपड़ा (शेलैक) बनाने का प्राथमिक कच्चा माल है।',
     whatsappMessage: 'Hello Lah Suvidha Kendra, I am interested in Raw Lac. Please share available quantity, specifications and pricing.',
     whatsappMessageHi: 'नमस्ते लाह सुविधा केंद्र, मुझे कच्ची लाह (स्टिकलैक) की उपलब्ध मात्रा, गुणवत्ता और दर बताएं।',
-    image: '/src/assets/images/raw_lac_resin_1790787444571.jpg',
+    image: '/images/raw_lac_resin_1790787444571.jpg',
     features: [
       'Directly procured and graded from local cultivation belts',
       'Carefully dried and stored to prevent block-formation or melting',
@@ -313,7 +313,7 @@ export const PRODUCTS: Product[] = [
     fullDescriptionHi: 'लाह रेज़िन एक प्राकृतिक, गैर-विषाक्त और बायोडिग्रेडेबल बहुलक है। यह पॉलिश, बिजली इंसुलेशन, प्राकृतिक चिपकने वाले पदार्थों और लकड़ी फिनिशिंग में व्यापक रूप से उपयोग की जाती है।',
     whatsappMessage: 'Hello Lah Suvidha Kendra, I am interested in Lac Resin. Please share technical specifications, availability and pricing.',
     whatsappMessageHi: 'नमस्ते लाह सुविधा केंद्र, मुझे लाह राल (रेज़िन) के विनिर्देश, उपलब्धता और मूल्य बताएं।',
-    image: '/src/assets/images/raw_lac_resin_1790787444571.jpg',
+    image: '/images/raw_lac_resin_1790787444571.jpg',
     features: [
       '100% natural, biodegradable resin matrix',
       'Superior thermal, dielectric, and moisture barrier properties',
@@ -340,7 +340,7 @@ export const PRODUCTS: Product[] = [
     fullDescriptionHi: 'लाह गोंद एक प्राकृतिक जैविक गोंद है जो सूखने पर मजबूत पकड़ और जल-प्रतिरोधकता प्रदान करता है। इसका पारंपरिक उपयोग लाह की चूड़ियों, हस्तशिल्प और सीलिंग में किया जाता है।',
     whatsappMessage: 'Hello Lah Suvidha Kendra, I am interested in Lac Gum. Please share product details, packaging and pricing.',
     whatsappMessageHi: 'नमस्ते लाह सुविधा केंद्र, मुझे लाह गोंद के पैकिंग विवरण और दर की जानकारी चाहिए।',
-    image: '/src/assets/images/raw_lac_resin_1790787444571.jpg',
+    image: '/images/raw_lac_resin_1790787444571.jpg',
     features: [
       'Natural tacky binding medium with rapid set times',
       'Traditional application in artisan lac handicrafts and jewellery',
@@ -369,7 +369,7 @@ export const PRODUCTS: Product[] = [
     fullDescriptionHi: 'पेड़ की उचित छंटाई और सुरक्षित कटाई के लिए विशेष औजार आवश्यक हैं। लाह सुविधा केंद्र मजबूत सिकेटियर्स, लंबी डंडी वाले प्रूनर्स और डाल कटाई औजार प्रदान करता है ताकि पेड़ की छाल को नुकसान न पहुंचे।',
     whatsappMessage: 'Hello Lah Suvidha Kendra, I am interested in cutting equipment. Please share available options, specifications and pricing.',
     whatsappMessageHi: 'नमस्ते लाह सुविधा केंद्र, मुझे लाह की खेती के कटाई औजारों के विकल्प और दर की जानकारी चाहिए।',
-    image: '/src/assets/images/lac_tools_equipment_1790787467181.jpg',
+    image: '/images/lac_tools_equipment_1790787467181.jpg',
     features: [
       'High-grade hardened steel cutting edges for clean pruning cuts',
       'Ergonomic handles designed for prolonged orchard use',
@@ -396,7 +396,7 @@ export const PRODUCTS: Product[] = [
     fullDescriptionHi: 'हम लाह बागवानी के दैनिक कार्यों में उपयोगी टिकाऊ कृषि औजार उपलब्ध कराते हैं, जिनमें विशेष हंसिया, बांधने की सामग्री और झाड़ी साफ करने के औजार शामिल हैं।',
     whatsappMessage: 'Hello Lah Suvidha Kendra, I am interested in farming tools for lac cultivation. Please share available tools and pricing.',
     whatsappMessageHi: 'नमस्ते लाह सुविधा केंद्र, मुझे लाह खेती में काम आने वाले कृषि औजारों की जानकारी दें।',
-    image: '/src/assets/images/lac_tools_equipment_1790787467181.jpg',
+    image: '/images/lac_tools_equipment_1790787467181.jpg',
     features: [
       'Durable construction built for rural agricultural field work',
       'Assists in field cleaning, weed clearing, and branch tie-downs',
@@ -423,7 +423,7 @@ export const PRODUCTS: Product[] = [
     fullDescriptionHi: 'सिंथेटिक जाली पेड़ पर बीहन डंडियों को सुरक्षित बांधने में मदद करती है। यह कीटों को निकलने देती है और शिकारी कीटों से बचाती है।',
     whatsappMessage: 'Hello Lah Suvidha Kendra, I am interested in Synthetic Net for lac cultivation. Please share available sizes, quantity and pricing.',
     whatsappMessageHi: 'नमस्ते लाह सुविधा केंद्र, मुझे बीहन लाह बांधने की सिंथेटिक जाली के साइज और मूल्य बताएं।',
-    image: '/src/assets/images/lac_tools_equipment_1790787467181.jpg',
+    image: '/images/lac_tools_equipment_1790787467181.jpg',
     features: [
       'Tear-resistant weave with optimized mesh aperture',
       'Reduces brood stick handling losses during windy conditions',
@@ -452,7 +452,7 @@ export const PRODUCTS: Product[] = [
     fullDescriptionHi: 'लाह सुविधा केंद्र उत्पाद की उपलब्धता और लागू नियमों के अधीन कृषि और लाह की खेती की आवश्यकताओं से संबंधित कीटनाशक और पेस्टीसाइड्स प्रदान करता है। ये उत्पाद पेड़ों और फसल को नुकसान पहुंचाने वाले कीटों से रक्षा हेतु अधिकृत मानकों पर दिए जाते हैं।',
     whatsappMessage: 'Hello Lah Suvidha Kendra, I am interested in your available pesticides/insecticides. Please share the available products and details.',
     whatsappMessageHi: 'नमस्ते लाह सुविधा केंद्र, मुझे उपलब्ध कीटनाशक एवं पेस्टीसाइड्स की जानकारी और दर चाहिए।',
-    image: '/src/assets/images/lac_tools_equipment_1790787467181.jpg',
+    image: '/images/lac_tools_equipment_1790787467181.jpg',
     features: [
       'Supplied subject to current product availability & applicable regulations',
       'Oriented toward agricultural and host plantation pest management',

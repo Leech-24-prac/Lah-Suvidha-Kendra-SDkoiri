@@ -11,7 +11,7 @@ export const LacSeedsShowcase: React.FC = () => {
 
   const photos = {
     grains: {
-      url: '/src/assets/images/lac_seeds_grains_1790787922266.jpg',
+      url: '/images/lac_seeds_grains_1790787922266.jpg',
       title: isHindi
         ? 'लाह बीज — प्राकृतिक सुनहरे अंबर दाने (सीडलैक)'
         : 'Lac Seeds — Natural Golden Amber Grains (Seedlac)',
@@ -37,7 +37,7 @@ export const LacSeedsShowcase: React.FC = () => {
           ],
     },
     sticks: {
-      url: '/src/assets/images/lac_seed_sticks_1790787941472.jpg',
+      url: '/images/lac_seed_sticks_1790787941472.jpg',
       title: isHindi
         ? 'लाह बीज डंडियां — बीहन लाह संचरण डंडियां (लाह बीज / बीहन)'
         : 'Lac Seed Sticks — Brood Lac Inoculation Sticks (लाह बीज / बीहन)',
@@ -63,7 +63,7 @@ export const LacSeedsShowcase: React.FC = () => {
           ],
     },
     twigs: {
-      url: '/src/assets/images/brood_lac_twigs_1790787426825.jpg',
+      url: '/images/brood_lac_twigs_1790787426825.jpg',
       title: isHindi
         ? 'पोषक टहनी पर परिपक्व लाह आवरण का विवरण'
         : 'Mature Seed Encrustation on Host Branch',
