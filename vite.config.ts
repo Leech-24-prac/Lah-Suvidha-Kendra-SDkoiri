@@ -5,6 +5,8 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
+    base: '/
+Lah-Suvidha-Kendra-SDKoiri/',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
